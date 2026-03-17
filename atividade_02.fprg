@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="atividade_01"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 01:49:29 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNjA2OzIwMjYtMDMtMTc7IjAxOjI1OjU5ICI7MjM2Mg=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNjA2OzIwMjYtMDMtMTc7IjAxOjQ5OjI5ICI7MjsyNDc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="primeiroNumero" type="Real" array="False" size=""/>
+            <declare name="segundoNumero" type="Real" array="False" size=""/>
+            <output expression="&quot;Vamos somar dois n&#250;meros! &quot; &amp;&#13;&#10;&quot;Digite o primeiro n&#250;mero:&quot;" newline="True"/>
+            <input variable="primeiroNumero"/>
+            <output expression="&quot;Digite o segundo n&#250;mero:&quot;" newline="True"/>
+            <input variable="segundoNumero"/>
+            <output expression="&quot;Soma realizada! O resultado foi: &quot; &amp; primeiroNumero + segundoNumero" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

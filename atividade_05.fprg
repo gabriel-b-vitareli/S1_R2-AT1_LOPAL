@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="atividade_01"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 02:02:05 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNjA2OzIwMjYtMDMtMTc7IjAxOjI1OjU5ICI7MjM2Mg=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNjA2OzIwMjYtMDMtMTc7IjAyOjAyOjA1ICI7NjsyNDYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="primeiraNota" type="Real" array="False" size=""/>
+            <declare name="segundaNota" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a primeira nota: &quot;" newline="True"/>
+            <input variable="primeiraNota"/>
+            <output expression="&quot;Digite a segunda nota:&quot;" newline="True"/>
+            <input variable="segundaNota"/>
+            <output expression="&quot;A m&#233;dia entre as duas notas foi: &quot; &amp; (primeiraNota + segundaNota) &#247; 2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
